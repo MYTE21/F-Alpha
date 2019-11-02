@@ -1,0 +1,25 @@
+{
+  "name": "f-alpha",
+  "version": "1.0.0",
+  "description": "* Basic functionality is to **sign-in**, **sing-up**, **posting**, **rating post** like facebook. So the name is F-Alpha (Facebook Alpha 😛 )\r * Technology Use :\r     * [**node.js**](https://nodejs.org/en/)\r     * [**jwt**](https://jwt.io/)\r ## Installation\r * npm init",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MYTE21/F-Alpha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MYTE21/F-Alpha/issues"
+  },
+  "homepage": "https://github.com/MYTE21/F-Alpha#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
