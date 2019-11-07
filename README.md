@@ -4,7 +4,7 @@
 * Tools or Editor
     * **WebStrom**
     * **Postman**
-* Technology Use :
+* Technology Used :
     * [**node.js**](https://nodejs.org/en/)
     * [**jwt**](https://jwt.io/)
 ## Installation
