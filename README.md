@@ -7,6 +7,7 @@
 * Technology Used :
     * [**node.js**](https://nodejs.org/en/)
     * [**jwt**](https://jwt.io/)
+* **npm start** - To run 
 ## Installation
 * **npm init** 
 * **npm install express**
@@ -26,3 +27,8 @@
         * Imports **register** routes
 3. Delete everything inside **scripts** of **package.json** and add **"start":"nodemon index.js"**
 4. Now **npm start** - Can be used to run server, **Postman** to test
+## Step - 3
+1. **npm install dotenv**
+2. **npm install mongoose**
+3. Connected project with **MongoDB** 
+4. **.env** file created - DB_CONNECT
