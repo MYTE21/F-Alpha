@@ -60,7 +60,29 @@ router.put('/update/', verify, (req, res) => {
             });
         }
     );
-})
+});
+
+router.put('/rate/', verify, (req, res) => {
+    let query = { _id: req.query.id };
+
+    Post.updateOne(query, {
+        $set: {
+            rate: req.body.rate
+        }
+    }).then(
+        () => {
+            res.status(201).json({
+                message: 'Rated successfully!'
+            });
+        }
+    ).catch(
+        (error) => {
+            res.status(400).json({
+                error: error
+            });
+        }
+    );
+});
 
 router.delete('/delete/', verify, async (req, res, next) => {
     let query = { _id: req.query.id, _created_by: req.user._id };
