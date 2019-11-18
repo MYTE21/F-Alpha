@@ -32,3 +32,5 @@
 2. **npm install mongoose**
 3. Connected project with **MongoDB** 
 4. **.env** file created - DB_CONNECT
+## Step - 4
+1. Create **User.js** - name, email, date of birth, phone number
