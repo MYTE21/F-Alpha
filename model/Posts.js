@@ -22,6 +22,12 @@ const postSchema = mongoose.Schema({
     _created_by: {
         type: Schema.ObjectId,
         ref : 'User'
+    },
+    rate: {
+        type: Number,
+        min:0,
+        max:5,
+        default: 0
     }
 
 });
