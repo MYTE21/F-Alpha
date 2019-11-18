@@ -34,3 +34,8 @@
 4. **.env** file created - DB_CONNECT
 ## Step - 4
 1. Create **User.js** - name, email, date of birth, phone number
+2. **npm uninstall --save @hapi/joi**
+3. **npm install --save @hapi/joi@15.0.3**
+## Step - 5
+1. **npm install bcryptjs**
+2. **npm install jsonwebtoken**
